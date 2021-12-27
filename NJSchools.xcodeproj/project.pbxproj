@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		F46475CB27055B7D0041321E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46475CA27055B7D0041321E /* AppDelegate.swift */; };
 		F46475CD27055B7D0041321E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46475CC27055B7D0041321E /* SceneDelegate.swift */; };
-		F46475CF27055B7D0041321E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46475CE27055B7D0041321E /* ViewController.swift */; };
 		F46475D227055B7D0041321E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46475D027055B7D0041321E /* Main.storyboard */; };
 		F46475D427055B7E0041321E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46475D327055B7E0041321E /* Assets.xcassets */; };
 		F46475D727055B7E0041321E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46475D527055B7E0041321E /* LaunchScreen.storyboard */; };
 		F46475E227055B7E0041321E /* NJSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46475E127055B7E0041321E /* NJSchoolsTests.swift */; };
 		F46475EC27055B7E0041321E /* NJSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46475EB27055B7E0041321E /* NJSchoolsUITests.swift */; };
 		F46475EE27055B7E0041321E /* NJSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46475ED27055B7E0041321E /* NJSchoolsUITestsLaunchTests.swift */; };
+		F46475FF27055CA00041321E /* SchoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46475FE27055CA00041321E /* SchoolsTableViewController.swift */; };
+		F46476012705E85B0041321E /* NJSchoolsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46476002705E85B0041321E /* NJSchoolsModel.swift */; };
+		F4647603270630DE0041321E /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4647602270630DE0041321E /* SchoolDetailViewController.swift */; };
+		F4647605270631910041321E /* SchoolInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4647604270631910041321E /* SchoolInfoTableViewCell.swift */; };
+		F48EB22C270949850081288D /* NJSchools.json in Resources */ = {isa = PBXBuildFile; fileRef = F48EB22B270949850081288D /* NJSchools.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		F46475C727055B7D0041321E /* NJSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJSchools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46475CA27055B7D0041321E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F46475CC27055B7D0041321E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F46475CE27055B7D0041321E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F46475D127055B7D0041321E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F46475D327055B7E0041321E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46475D627055B7E0041321E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		F46475E727055B7E0041321E /* NJSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJSchoolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46475EB27055B7E0041321E /* NJSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJSchoolsUITests.swift; sourceTree = "<group>"; };
 		F46475ED27055B7E0041321E /* NJSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F46475FE27055CA00041321E /* SchoolsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsTableViewController.swift; sourceTree = "<group>"; };
+		F46476002705E85B0041321E /* NJSchoolsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJSchoolsModel.swift; sourceTree = "<group>"; };
+		F4647602270630DE0041321E /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
+		F4647604270631910041321E /* SchoolInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolInfoTableViewCell.swift; sourceTree = "<group>"; };
+		F48EB22B270949850081288D /* NJSchools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NJSchools.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,13 @@
 		F46475C927055B7D0041321E /* NJSchools */ = {
 			isa = PBXGroup;
 			children = (
-				F46475CA27055B7D0041321E /* AppDelegate.swift */,
-				F46475CC27055B7D0041321E /* SceneDelegate.swift */,
-				F46475CE27055B7D0041321E /* ViewController.swift */,
+				F46475FD27055C110041321E /* AppFiles */,
 				F46475D027055B7D0041321E /* Main.storyboard */,
+				F4647604270631910041321E /* SchoolInfoTableViewCell.swift */,
+				F46476002705E85B0041321E /* NJSchoolsModel.swift */,
+				F48EB22B270949850081288D /* NJSchools.json */,
+				F46475FE27055CA00041321E /* SchoolsTableViewController.swift */,
+				F4647602270630DE0041321E /* SchoolDetailViewController.swift */,
 				F46475D327055B7E0041321E /* Assets.xcassets */,
 				F46475D527055B7E0041321E /* LaunchScreen.storyboard */,
 				F46475D827055B7E0041321E /* Info.plist */,
@@ -125,6 +136,15 @@
 				F46475ED27055B7E0041321E /* NJSchoolsUITestsLaunchTests.swift */,
 			);
 			path = NJSchoolsUITests;
+			sourceTree = "<group>";
+		};
+		F46475FD27055C110041321E /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F46475CA27055B7D0041321E /* AppDelegate.swift */,
+				F46475CC27055B7D0041321E /* SceneDelegate.swift */,
+			);
+			path = AppFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F46475D727055B7E0041321E /* LaunchScreen.storyboard in Resources */,
+				F48EB22C270949850081288D /* NJSchools.json in Resources */,
 				F46475D427055B7E0041321E /* Assets.xcassets in Resources */,
 				F46475D227055B7D0041321E /* Main.storyboard in Resources */,
 			);
@@ -258,9 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46475CF27055B7D0041321E /* ViewController.swift in Sources */,
+				F46475FF27055CA00041321E /* SchoolsTableViewController.swift in Sources */,
 				F46475CB27055B7D0041321E /* AppDelegate.swift in Sources */,
 				F46475CD27055B7D0041321E /* SceneDelegate.swift in Sources */,
+				F4647603270630DE0041321E /* SchoolDetailViewController.swift in Sources */,
+				F46476012705E85B0041321E /* NJSchoolsModel.swift in Sources */,
+				F4647605270631910041321E /* SchoolInfoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
